@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: 'Bellota Text';
+
+  }
+
+  .news {
+    border-style: solid;
+    border: 5px;
+    padding: 10px;
+  }
+
+  .bg-img {
+    position: relative;
+    width: 100%;
+    height: 70%;
+  }
+
+  .bg {
+    min-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .animated_text {
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+
+  }
+
+  .animated_text h5 {
+    color: #EEE;
+    font-size: 15px;
+    padding: 0;
+    line-height: 30px;
+    text-align: center;
+    /* Starting position */
+  }
+
+  /* Move it (define the animation) */
+  @-moz-keyframes example1 {
+    0% {
+      -moz-transform: translateX(100%);
+    }
+
+    100% {
+      -moz-transform: translateX(-100%);
+    }
+  }
+
+  @-webkit-keyframes example1 {
+    0% {
+      -webkit-transform: translateX(100%);
+    }
+
+    100% {
+      -webkit-transform: translateX(-100%);
+    }
+  }
+
+  @keyframes example1 {
+    0% {
+      -moz-transform: translateX(100%);
+      /* Firefox bug fix */
+      -webkit-transform: translateX(100%);
+      /* Firefox bug fix */
+      transform: translateX(100%);
+    }
+
+    100% {
+      -moz-transform: translateX(-100%);
+      /* Firefox bug fix */
+      -webkit-transform: translateX(-100%);
+      /* Firefox bug fix */
+      transform: translateX(-100%);
+    }
+  }
+
+  .clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+  }
+
+  #MyClockDisplay {
+    font-size: 15px;
+    background-color: #003893;
+    color: #EEE;
+    text-align: center;
+  }
+
+
+  .nav-item {
+    text-decoration-style: solid;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .nav-item:hover {
+    text-decoration: underline;
+    font-size: 20px;
+  }
+
+  .intro {
+    font-size: 16px;
+    padding: 150px 20px;
+    line-height: 30px;
+    background-color: rgba(255, 0,0, 0.2);
+  }
+
+  .navbar-brand.navbar-image {
+    padding: 0 20px 0 0;
+    display: flex;
+  }
+
+  .navbar-brand.navbar-image>img {
+    margin: auto 0;
+    z-index: 1;
+    height: initial;
+  }
+  .bg-aboutus {
+    padding: 10px;
+  }
+
+  .smicons ul {
+    display: flex;
+    list-style-type: none;
+    padding: 5px;
+    font-size: 10px;
+  }
+  .intro1{
+    line-height: 30px;
+    padding: 20px
+  }
